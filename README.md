@@ -25,3 +25,10 @@ pip install -r requirements.txt
 
 # 3. Lancer le serveur
 python main.py
+
+
+# 4.Variable d’environnement
+BETSMART_DRIVE_MODEL_ID=1FBM4lYhm9pvEmlL4vmJV0YMKl-rIIXaJ
+
+# 5.serveur via
+uvicorn main:app --host 0.0.0.0 --port 10000
