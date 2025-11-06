@@ -8,8 +8,8 @@ from pydantic import BaseModel
 import uvicorn
 
 # === Configuration ===
-MODEL_ID = os.environ.get("BETSMART_DRIVE_MODEL_ID", "1FBM4lYhm9pvEmlL4vmJV0YMKl-rIIXaJ")
-MODEL_PATH = "/tmp/bet_predict_model.pkl"  # Utilise /tmp sur Render
+MODEL_ID = os.environ.get("BETSMART_DRIVE_MODEL_ID", "100ILw-Y9y47xoUsMT2nTmb5nTWMnUUlq")
+MODEL_PATH = "/tmp/bet_predict_model_compressed.pkl"  # Utilise /tmp sur Render
 MAPPING_PATH = "team_league_mapping.json"
 
 app = FastAPI(title="Betsmart Prediction API", version="1.0")
